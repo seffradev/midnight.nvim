@@ -1,7 +1,7 @@
 ------------------------------------------ COLOR PALETTE -------------------------------------------
 
 local palette = {
-  black = '#212121',
+  black = '#000000',
   blue = {
     [1] = '#b8d3ff',
     [2] = '#a6c8ff',
@@ -15,14 +15,14 @@ local palette = {
     [4] = '#013360',
   },
   gray = {
-    [1] = '#e0e0e0',
+    [1] = '#ffffff',
     [2] = '#cac5c4',
     [3] = '#c1c7cd',
     [4] = '#adb5bd',
     [5] = '#525252',
     [6] = '#474747',
     [7] = '#262626',
-    [8] = '#181818',
+    [8] = '#000000',
   },
   green = {
     [1] = '#a7f0ba',
@@ -69,8 +69,8 @@ local palette = {
 local components = {
   -- main
   none = 'NONE',
-  bg = '#080c10',
-  fg = '#b5bdc5',
+  bg = '#000000',
+  fg = '#ffffff',
 
   -- miscellaneous
   border = '#393939',
@@ -104,7 +104,7 @@ local components = {
 
 -- terminal palette; each color { dark, light } variants
 local terminal = {
-  black = { palette.gray[8], palette.gray[5] },
+  black = { palette.black, palette.black },
   red = { components.error, components.operator },
   green = { palette.green[4], components.field },
   yellow = { components.method, palette.yellow[1] },

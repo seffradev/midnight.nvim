@@ -77,7 +77,7 @@ local components = {
   visual = '#012749',
   tabsel = '#697077',
   tags = '#e07980',
-  title = '#5579f0',
+  title = '#cacaca',
 
   -- syntax
   comment = '#878d96',
